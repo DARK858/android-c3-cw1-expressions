@@ -1,0 +1,36 @@
+public class Main
+{
+	    
+	    public static void main(string[] args) {
+	        forloopfun();
+	        System.out.println(temprature(22));
+	        
+	        int total = totalgrade(55 , 54);
+	        System.out.println(total);
+	    }  
+	    
+	
+	public static void forloopfun(){
+	    for (int i =0; i <=10;i++){
+	        System.out.println(i);
+	    }
+	    
+	}
+	
+	
+	public static string temprature(int temp){
+	    if (temp > 23 )
+	        return "hot";
+	      } else if(temp < 23 ){
+	           return "cold";
+	        
+	      }
+	        return "good temp";
+} 
+	    
+	    public static int totalgrade(int num1, int num2){
+	        return num1+num2;
+	    
+	    }
+	
+}
